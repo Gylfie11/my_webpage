@@ -11,7 +11,7 @@ img#color-galaxy {
   width: 100%;
   filter: hue-rotate(0deg);
   animation-iteration-count: infinite;
-  animation-duration: 5s;
+  animation-duration: 15s;
   animation-name: color-rotation;
   z-index: 1;
   pointer-events: none;
