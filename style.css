@@ -10,7 +10,8 @@ img#color-galaxy {
   left: 0;
   width: 100%;
   filter: hue-rotate(0deg);
-  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-duration: 5s;
   animation-name: color-rotation;
 }
 
