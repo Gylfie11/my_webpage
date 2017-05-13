@@ -48,4 +48,8 @@ h2 {
   color: #FFFFFF;
 }
 
+h1, h2 {
+  text-shadow: 3px 3px 0 rgba(255,255,255,.5);
+}
+
 .hero {}
