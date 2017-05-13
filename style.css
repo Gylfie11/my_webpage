@@ -1,7 +1,31 @@
 body {
   font-family: 'Press Start 2P';
-  background:url("https://s-media-cache-ak0.pinimg.com/originals/de/71/bd/de71bd2903b8d94651417c867b5fac10.jpg");
-background-color: #000000;
+  /*background:url("https://s-media-cache-ak0.pinimg.com/originals/de/71/bd/de71bd2903b8d94651417c867b5fac10.jpg");*/
+  background-color: #000000;
+}
+
+img#color-galaxy {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  filter: hue-rotate(0deg);
+  animation-duration: 1s;
+  animation-name: color-rotation;
+}
+
+@keyframes color-rotation {
+  0% {
+    filter: hue-rotate(0deg); 
+  }
+
+  50% {
+    filter: hue-rotate(180deg); 
+  }
+
+  100% {
+    filter: hue-rotate(360deg); 
+  }
 }
     
 h1 {
