@@ -13,6 +13,8 @@ img#color-galaxy {
   animation-iteration-count: infinite;
   animation-duration: 5s;
   animation-name: color-rotation;
+  z-index: 1;
+  pointer-events: none;
 }
 
 @keyframes color-rotation {
@@ -27,6 +29,11 @@ img#color-galaxy {
   100% {
     filter: hue-rotate(360deg); 
   }
+}
+
+#container {
+  position: relative;
+  z-index: 2;
 }
     
 h1 {
