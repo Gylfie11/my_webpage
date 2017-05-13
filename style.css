@@ -15,6 +15,7 @@ img#color-galaxy {
   animation-name: color-rotation;
   z-index: 1;
   pointer-events: none;
+  opacity: .7;
 }
 
 @keyframes color-rotation {
